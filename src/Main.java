@@ -8,9 +8,14 @@ import java.lang.Math;
 
     public class Main{
         public static void main(String[] args) {
-            int a = 5;
-            int b = 4;
-            int c = 9;
+            int a ;
+            int b ;
+            int c ;
+            Scanner scanner = new Scanner(System.in);
+
+            a = scanner.nextInt();
+            b  = scanner.nextInt();
+            c = scanner.nextInt();
 
             if (isRightTriangle(a, b, c)) {
                 System.out.println(a + ", " + b + " и " + c + " являются сторонами прямоугольного треугольника");
